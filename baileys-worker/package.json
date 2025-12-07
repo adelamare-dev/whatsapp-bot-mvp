@@ -1,0 +1,24 @@
+{
+  "name": "baileys-worker",
+  "version": "1.0.0",
+  "author": {
+    "name": "Antoine Delamare",
+    "email": "antoine@blockchain-cie.com",
+    "url": "https://github.com/adelamare-blockchain"
+  },
+  "description": "Baileys-based WhatsApp channel worker for the OCTAVE backend.",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "init": "node init.js",
+    "start": "node bot.js",
+    "clean": "rm -rf auth_info_baileys && echo '✅ Credentials supprimés'"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.21",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.4",
+    "express": "^4.21.1"
+  }
+}
