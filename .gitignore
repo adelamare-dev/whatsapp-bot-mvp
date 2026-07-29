@@ -10,6 +10,8 @@ __pycache__/
 !backend/.env.example
 
 node_modules
+auth_info_baileys
+___*
 
 .vitepress/cache/
 .vitepress/dist/
