@@ -4,7 +4,7 @@
   "author": {
     "name": "Antoine Delamare",
     "email": "antoine@blockchain-cie.com",
-    "url": "https://github.com/adelamare-blockchain"
+    "url": "https://github.com/adelamare-dev"
   },
   "description": "Baileys-based WhatsApp channel worker for the OCTAVE backend.",
   "type": "commonjs",
